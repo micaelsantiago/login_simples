@@ -4,9 +4,10 @@
 Projeto de uma tela de login simples.
 
 ## :wrench: Tecnologias utilizadas
-
+<div align="left">
   <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+</div>
 
 ## :rocket: Rodando o projeto
 Para rodar o repositório é necessário baixar e extrair o projeto, depois abrir o arquivo "index.html".
