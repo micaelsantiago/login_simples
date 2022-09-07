@@ -1,67 +1,61 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     background-color: #B3B3B3;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 .container {
-    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #FFF;
-    margin: 6% auto;
     text-align: center;
-    padding: 45px;
-    border-radius: 10px;
+    padding: 2rem;
+    border-radius: 20px 0 20px 0
+}
+
+.container h1 {
+    margin-bottom: 1rem
 }
 
 .formulario input {
     display: block;
-    margin: 0 auto;
-}
-
-.container h1 {
-    font-size: 35px;
-    letter-spacing: 2px;
-    margin: 40px 0 50px 0;
-}
-
-.container .formulario input {
-    font-size: 17px;
-    margin-bottom: 35px;
+    padding: .4rem;
+    margin: 1rem 0;
     border: none;
-    border-bottom: 2px solid #BBB;
-    outline: 0;
-    padding-bottom: 5px;
+    border-bottom: 1px solid #B3B3B3;
+    outline: none;
+    cursor: pointer
 }
 
-.container .formulario button {
-    width: 216px;
-    margin: 15px 0 40px 0;
-    padding: 20px;
+.formulario button {
+    width: 100%;
+    margin: 1rem 0;
+    padding: .8rem;
+    text-transform: uppercase;
     border: none;
+    border-radius: 10px;
     background: linear-gradient(90deg, #00D4FF 1%, #FF00E0 80%);
     color: #FFF;
-    text-transform: uppercase;
-    border-radius: 50px;
-    cursor: pointer;
+    font-weight: bold;
+    cursor: pointer
 }
 
 .container p {
-    font-size: 17px;
-    margin-bottom: 40px;
+    margin-top: 1rem
 }
 
-.container p a {
+.container a {
     text-decoration: none;
-    color: black;
-}
-
-.container p a:hover {
-    transition: 0.6s;
-    text-decoration: underline;
-    color: #ff00e0
+    color: #FF00E0
 }
